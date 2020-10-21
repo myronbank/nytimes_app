@@ -1,0 +1,40 @@
+.tab {
+  padding:1rem;
+  background: #fff;
+  color:black;
+}
+
+.sticky{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index:100;
+  min-height:50px;
+}
+
+.tab--container{
+  width:80vw;
+  margin:0 auto; 
+  padding: 0 0 0.2rem 0;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size:calc(1rem + 2px);
+}
+
+.tab button:hover {
+  border-bottom:5px solid black;
+  transition: all 0.2s ease-out;
+}
+
+
+
